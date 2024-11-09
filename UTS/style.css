@@ -1,0 +1,92 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+.hr{
+    margin-top:10px ;
+}
+.container{
+    margin-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.logo{
+    width: 70px;
+    height: auto;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.navbrand{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    transition: background-color 0.3s;
+}
+.navbar a{
+    padding:10px 20px;
+    margin-right:80px ;
+    text-decoration: none;
+}
+.navbar ul :hover{
+    background-color: blue;
+}
+.container-isi{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container-content{
+    background-color: blue;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fotoBerita1, .fotoBerita2 {
+    width: 150px;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    background-color: yellow;
+}
+.text-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textBerita1{
+    margin:0;
+}
+.textBerita2{
+    margin-left:100px;
+    margin-right: 0px;
+}
